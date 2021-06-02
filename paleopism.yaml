@@ -1,0 +1,18 @@
+sources:
+    present:
+      args:
+        urlpath: gs://ldeo-glaciology/paleo_ensemble/present.zarr
+        storage_options:
+           token: "anon"    
+      description: "Presented-day simulated fields of thickness, bed elevtion for the full ensemble"
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
+        
+    mask_score_time_series:
+      args:
+        urlpath: gs://ldeo-glaciology/paleo_ensemble/extra.zarr
+        storage_options:
+           token: "anon"    
+      description: "Time series of ice-free/grounded/floating/ocean integer mask and ensemble member score"
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
