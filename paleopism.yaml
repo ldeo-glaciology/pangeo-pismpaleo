@@ -16,3 +16,23 @@ sources:
       description: "Time series of ice-free/grounded/floating/ocean integer mask and ensemble member score"
       driver: intake_xarray.xzarr.ZarrSource
       metadata: {}
+    
+    snapshots1ka:
+      args:
+        urlpath: gs://ldeo-glaciology/paleo_ensemble/snapshots1ka.zarr
+        storage_options:
+           token: "anon"    
+      description: "1ky snapshots of model outputs including ice thickness, GIA etc."
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
+        
+    vels5ka:
+      args:
+        urlpath: gs://ldeo-glaciology/paleo_ensemble/vels5ka.zarr
+        storage_options:
+           token: "anon"    
+      description: "5kyr snapshots of ice velocity components and speed"
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
+        
+      
