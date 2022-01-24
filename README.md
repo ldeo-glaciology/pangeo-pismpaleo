@@ -7,7 +7,7 @@ Zarr ensemble data from https://doi.pangaea.de/10.1594/PANGAEA.909728 can be fou
     gs://ldeo-glaciology/paleo_ensemble/extra.zarr        : 120M : 'mask' every 1000 years since 125ka BP
     gs://ldeo-glaciology/paleo_ensemble/timeseries.zarr   : 366M : 'slvol' and 'ice_volume_glacierized' every year since 125ka BP
 
-and some additional data outputs:
+and some additional data from https://doi.org/10.1594/PANGAEA.940149 in:
 
     gs://ldeo-glaciology/paleo_ensemble/snapshots1ka.zarr : 50G  : 'thk','mask','topg','usurf','velbar_mag','dbdt','bmelt' every 1000 years since 125ka BP
     gs://ldeo-glaciology/paleo_ensemble/vels5ka.zarr      : 7G   : 'u_ssa','v_ssa','velbar_mag' every 5000 years since 125ka BP
